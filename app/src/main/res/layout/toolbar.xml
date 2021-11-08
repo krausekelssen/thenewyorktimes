@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constaintLayout_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The New York Times"
+                app:titleTextAppearance="@style/TextAppearance.TabsFont"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/thenewyorktimes"
+                android:textSize="40sp"/>
+        </LinearLayout>
+</LinearLayout>
